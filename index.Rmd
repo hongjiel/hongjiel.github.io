@@ -5,3 +5,13 @@ output:
     toc: true
     toc_float: true
 ---
+
+### Contact Information
+
+Hongjie Liu  
+MS Candidate | Class of 2024  
+Department of Biostatistics  
+Columbia University Mailman School of Public Health  
+
+Email: hl3640@cumc.columbia.edu  
+Phone: 917-302-3723
