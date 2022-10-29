@@ -6,8 +6,8 @@ output:
     toc_float: true
 ---
 
-This is Hongjie Liu's personal website.
-Here is the link to [my resume](resume.html).
+I am a first year MS student in Biostatistics at the Columbia University Mailman School of Public Health. I completed my BS in Mathematics at Fudan University.  
+You can learn more about my academic experience and professional experience [here](resume.html).
 
 <br>
 
