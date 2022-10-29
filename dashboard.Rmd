@@ -1,0 +1,72 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r}
+data(rest_inspec)
+
+set.seed(3640)
+
+rest_inspec =
+  rest_inspec %>% 
+  select(-violation_code, -violation_description) %>% 
+  distinct %>% 
+  filter(cuisine_description %in% c("Pizza", "CafÃ©/Coffee/Tea", "Bakery", "Chicken",
+                                    "Delicatessen", "Donuts", "Hamburgers", "Sandwiches")) %>% 
+  sample_n(5000) %>% 
+  rename(cuisine = cuisine_description) %>% 
+  mutate(
+    inspection_date = as.character(inspection_date),
+    year = substr(inspection_date, start = 1, stop = 4)
+  )
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec %>% 
+  select(dba, boro, cuisine) %>% 
+  distinct(dba, boro, cuisine) %>% 
+  count(boro, cuisine) %>% 
+  mutate(cuisine = fct_reorder(cuisine, -n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~cuisine, colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+rest_inspec %>% 
+  drop_na(score) %>% 
+  mutate(cuisine = fct_reorder(cuisine, score)) %>% 
+  plot_ly(y = ~score, color = ~cuisine, type = "box", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+rest_inspec %>% 
+  drop_na(score) %>% 
+  mutate(cuisine = fct_reorder(cuisine, score)) %>% 
+  group_by(cuisine, year) %>% 
+  summarise(mean_score = mean(score)) %>% 
+  plot_ly(x = ~year, y = ~mean_score, color = ~cuisine,
+          type = "scatter", mode = "lines+markers", colors = "viridis")
+```
+
