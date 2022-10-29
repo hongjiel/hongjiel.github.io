@@ -1,0 +1,36 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br>
+
+#### EDUCATION
+**Fudan University** [**Shanghai, China**]{style="float:right"}  
+*Bachelor of Science* in Information and Computing Science [*Sept. 2017 – Jun. 2022*]{style="float:right"}  
+
+**Related Coursework:** Mathematical Analysis, Advanced Algebra, Analytic Geometry, Ordinary Differential Equations, Abstract Algebra, Real Analysis, Functions of Complex Variable, Topology, Probability Theory, Differential Geometry, Numerical Analysis, Linear and Nonlinear Programming, Numerical Solution of Differential Equations, Optimization, Regression Analysis  
+
+<br>
+
+#### SKILLS
+**Programming & Software:** Python, C, MATLAB, Visual Basic, LaTeX
+
+<br>
+
+#### PROFESSIONAL EXPERIENCE
+**Tencent Holdings Ltd.** [**Shanghai, China**]{style="float:right"}  
+Asset Management Intern [*Aug. 2019 – Sept. 2019*]{style="float:right"}
+
+* Analyzed source data of intelligent recommendation system using Python, and generated a table containing 16 indicators of daily after-sales based on statistical logic
+* Expanded keyword repository in the field of industrial machinery by crawling three industrial machinery product trading websites
+* Crawled and organized information on thousands of telesales positions posted on five major nationwide recruitment websites
+
+**Zheshang Securities Co., Ltd.** [**Shanghai, China**]{style="float:right"}  
+Fixed Income Department Intern [*Jan. 2019 – Feb. 2019*]{style="float:right"}  
+	
+* Compiled and organized data related to 300+ entities issuing urban investment and real estate bonds from Wind (a financial data providing platform)
+* Performed descriptive analysis on the entities’ social relations and aggregated information including their parent companies, subsidiaries, company size and competitors
+* Research on investment policies of major cities and then presented the findings to management
