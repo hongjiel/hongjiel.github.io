@@ -7,20 +7,22 @@ output:
 ---
 <br>
 
-#### EDUCATION
+### Education
 **Fudan University** [**Shanghai, China**]{style="float:right"}  
 *Bachelor of Science* in Information and Computing Science [*Sept. 2017 – Jun. 2022*]{style="float:right"}  
+
+**Cumulative GPA:** π/4.00  
 
 **Related Coursework:** Mathematical Analysis, Advanced Algebra, Analytic Geometry, Ordinary Differential Equations, Abstract Algebra, Real Analysis, Functions of Complex Variable, Topology, Probability Theory, Differential Geometry, Numerical Analysis, Linear and Nonlinear Programming, Numerical Solution of Differential Equations, Optimization, Regression Analysis  
 
 <br>
 
-#### SKILLS
+### Skills
 **Programming & Software:** Python, C, MATLAB, Visual Basic, LaTeX
 
 <br>
 
-#### PROFESSIONAL EXPERIENCE
+### Professional experience
 **Tencent Holdings Ltd.** [**Shanghai, China**]{style="float:right"}  
 Asset Management Intern [*Aug. 2019 – Sept. 2019*]{style="float:right"}
 
