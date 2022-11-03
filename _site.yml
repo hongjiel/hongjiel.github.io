@@ -3,9 +3,13 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
+    - text: "Resume"
+      href: resume.html
     - text: "Dashboard"
       href: dashboard.html
   right:
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/hongjie-l-5a5871255/
     - icon: fa-envelope fa-lg
       href: mailto:<hl3640@cumc.columbia.edu>
     - icon: fa-github fa-lg
